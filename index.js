@@ -70,5 +70,11 @@ module.exports = {
         singleQuote: false
       }
     ]
-  }
+  },
+  ignorePatterns: [
+    'node_modules/',
+    'dist/',
+    '**/node_modules/',
+    '**/dist/'
+  ]
 };
