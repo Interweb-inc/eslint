@@ -58,6 +58,16 @@ module.exports = {
     'prefer-const': 0,
     'no-case-declarations': 0,
     'no-implicit-globals': 0,
-    '@typescript-eslint/no-unsafe-declaration-merging': 0
+    '@typescript-eslint/no-unsafe-declaration-merging': 0,
+    'prettier/prettier': [
+      'error',
+      {
+        trailingComma: 'es5',
+        tabWidth: 2,
+        semi: true,
+        useTabs: false,
+        singleQuote: false
+      }
+    ]
   }
 };
