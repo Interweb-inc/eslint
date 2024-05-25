@@ -8,7 +8,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier'
+    'plugin:prettier/recommended'
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
@@ -19,7 +19,8 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'simple-import-sort',
-    'unused-imports'
+    'unused-imports',
+    'prettier'
   ],
   rules: {
     indent: [
